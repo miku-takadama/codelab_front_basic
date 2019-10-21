@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+  background-color: rgb(235, 250, 255);
+  margin: 50px;
+}
+
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header {
+  background: rgb(234, 209, 255);
+  padding: 40px;
+}
+
+.left {
+  background: rgb(255, 246, 207);
+  float: left;
+  height: 200px;
+  width: 20%;
+  line-height: 200px;
+}
+
+.right {
+  background: rgb(255, 149, 149);
+  float: right;
+  height: 200px;
+  width: 20%;
+  line-height: 200px;
+}
+
+.footer {
+  background: rgb(168, 231, 247);
+  clear: both;
+  padding: 40px;
+}

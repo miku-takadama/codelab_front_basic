@@ -19,14 +19,25 @@ body {
   background: #fa8072;
   height: 600px;
   line-height: 600px;
-  width: 65%;
+  width: 60%;
 }
 
-.side {
+.side1 {
   background: #fef8df;
   height: 600px;
-  line-height: 600px;
-  width: 35%;
+  line-height: 20px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.side2 {
+  background: skyblue;
+  height: 600px;
+  line-height: 20px;
+  width: 20%;
+  display: flex;
+  align-items: center;
 }
 
 .main-side {
